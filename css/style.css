@@ -41,6 +41,12 @@ button {
   color: white;
 }
 
+.second {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
 /* HEADER */
 header {
   background-color: var(--azzurro);
@@ -102,7 +108,7 @@ h1 {
   gap: 35px;
 }
 
-.header .left {
+.left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -115,11 +121,11 @@ h1 {
   font-size: 60px;
 }
 
-.header .right {
+.right {
   max-width: 70%;
 }
 
-.header .right img {
+.right img {
   width: 100%;
   display: block;
 }
@@ -248,4 +254,18 @@ hr {
 
 .high.row {
   justify-content: space-between;
+}
+
+/* section due */
+.due {
+  margin: 160px auto;
+}
+
+.due.row {
+  align-items: center;
+  gap: 50px;
+}
+
+.due h2 {
+  font-size: 28px;
 }
