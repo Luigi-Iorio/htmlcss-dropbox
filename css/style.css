@@ -1,5 +1,4 @@
 /* RESET CSS */
-
 * {
   padding: 0;
   margin: 0;
@@ -18,11 +17,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-:root {
-  --blu: #0061ff;
-  --azzurro: #b4d0e7;
-}
-
 /* COMMON */
 .l-cont {
   max-width: 1180px;
@@ -32,6 +26,30 @@ body {
 .m-cont {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+section a {
+  text-decoration: underline;
+  color: var(--blu);
+}
+
+section h2 {
+  font-size: 42px;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 button {
@@ -45,6 +63,11 @@ button {
   border: 1px solid black;
   background-color: white;
   color: black;
+}
+
+:root {
+  --blu: #0061ff;
+  --azzurro: #b4d0e7;
 }
 
 /* HEADER */
@@ -81,11 +104,6 @@ ul li a {
   line-height: 80px;
   color: inherit;
   font-weight: lighter;
-}
-
-.logo img {
-  width: 100%;
-  display: block;
 }
 
 /* header bottom */
@@ -125,31 +143,17 @@ h1 {
   max-width: 70%;
 }
 
-.right img {
-  width: 100%;
-  display: block;
-}
-
 /* MAIN */
-section {
-  display: flex;
-  flex-direction: column;
+section.uno {
   gap: 60px;
 }
 
-section h2 {
-  font-size: 42px;
-}
-
-/* cont */
-.cont {
-  display: flex;
-  flex-direction: row;
+.uno > .row {
   gap: 50px;
 }
 
 /* radio btn */
-.cont > span::before {
+.uno .row > span::before {
   content: "";
   display: inline-block;
   height: 6px;
@@ -159,7 +163,7 @@ section h2 {
   margin-right: 5px;
 }
 
-.cont > span:last-child::before {
+.uno .row > span:last-child::before {
   content: "";
   display: inline-block;
   height: 11px;
@@ -192,16 +196,9 @@ section h2 {
   gap: 50px;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
+.due .row {
   align-items: flex-start;
   gap: 5px;
-}
-
-.high a {
-  text-decoration: underline;
-  color: var(--blu);
 }
 
 .low .fa-check {
@@ -229,6 +226,10 @@ hr {
   gap: 30px;
 }
 
+.info .row {
+  gap: 5px;
+}
+
 .info h3 {
   font-size: 20px;
 }
@@ -253,6 +254,7 @@ hr {
 }
 
 .high.row {
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -271,8 +273,14 @@ hr {
 }
 
 /* section tre */
-.tre .cont {
+.tre h2 {
+  margin-bottom: 65px;
+}
+
+.tre .row {
+  align-items: center;
   flex-wrap: wrap;
+  gap: 50px;
 }
 
 .tre .high {
@@ -282,11 +290,6 @@ hr {
 
 .tre .low {
   padding: 0;
-}
-
-.tre .img img {
-  width: 100%;
-  display: block;
 }
 
 .tre .col {
@@ -301,13 +304,4 @@ section.quattro {
 
 .quattro {
   margin: 220px auto 150px auto;
-}
-
-.quattro h2 {
-  font-size: 42px;
-}
-
-a {
-  text-decoration: underline;
-  color: var(--blu);
 }
