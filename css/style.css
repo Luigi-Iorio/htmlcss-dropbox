@@ -293,3 +293,21 @@ hr {
   border: none;
   gap: 40px;
 }
+
+/* section quattro */
+section.quattro {
+  gap: 65px;
+}
+
+.quattro {
+  margin: 220px auto 150px auto;
+}
+
+.quattro h2 {
+  font-size: 42px;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--blu);
+}
