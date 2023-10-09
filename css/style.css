@@ -269,3 +269,27 @@ hr {
 .due h2 {
   font-size: 28px;
 }
+
+/* section tre */
+.tre .cont {
+  flex-wrap: wrap;
+}
+
+.tre .high {
+  padding: 0;
+  gap: 35px;
+}
+
+.tre .low {
+  padding: 0;
+}
+
+.tre .img img {
+  width: 100%;
+  display: block;
+}
+
+.tre .col {
+  border: none;
+  gap: 40px;
+}
