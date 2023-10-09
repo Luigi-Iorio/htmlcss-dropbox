@@ -29,9 +29,14 @@ body {
   margin: 0 auto;
 }
 
+.m-cont {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 button {
   border: none;
-  padding: 5px 20px;
+  padding: 10px 20px;
   background-color: var(--blu);
   color: white;
 }
@@ -39,6 +44,7 @@ button {
 /* HEADER */
 header {
   background-color: var(--azzurro);
+  margin-bottom: 160px;
 }
 
 /* nav */
@@ -116,4 +122,130 @@ h1 {
 .header .right img {
   width: 100%;
   display: block;
+}
+
+/* MAIN */
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+section h2 {
+  font-size: 42px;
+}
+
+/* cont */
+.cont {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+/* radio btn */
+.cont > span::before {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  border: 5px solid var(--blu);
+  margin-right: 5px;
+}
+
+.cont > span:last-child::before {
+  content: "";
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+
+/* colonne piani d'abbonamento */
+
+.col {
+  width: calc((100% - 100px) / 3);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.col h4 {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 14px 0;
+}
+
+.high {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.high a {
+  text-decoration: underline;
+  color: var(--blu);
+}
+
+.low .fa-check {
+  color: var(--blu);
+}
+
+.divisore {
+  padding: 0 30px;
+}
+
+hr {
+  width: 20%;
+}
+
+.low {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.info button {
+  padding: 10px 40px;
+}
+
+.prezzi h5 {
+  font-size: 16px;
+}
+
+.prezzi h6 {
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+/* colonna piano personalizzato */
+.col.big {
+  width: 100%;
+}
+
+.high.row {
+  justify-content: space-between;
 }
