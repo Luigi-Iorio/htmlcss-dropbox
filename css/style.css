@@ -19,12 +19,12 @@ body {
 
 /* COMMON */
 .l-cont {
-  max-width: 1180px;
+  width: 1180px;
   margin: 0 auto;
 }
 
 .m-cont {
-  max-width: 1000px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -398,4 +398,24 @@ section.quattro {
 
 .cc {
   background-color: #ffd830;
+}
+
+/* section sei */
+.sei {
+  padding: 140px 0;
+  background-color: var(--azzurro);
+}
+
+.sei h2 {
+  font-size: 32px;
+  color: #6e082b;
+}
+
+.sei .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sei .second {
+  border: none;
 }
