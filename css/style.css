@@ -305,3 +305,97 @@ section.quattro {
 .quattro {
   margin: 220px auto 150px auto;
 }
+
+/* section cinque */
+.cinque {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+
+.cinque .row {
+  flex-wrap: wrap;
+}
+
+.quadrato {
+  flex-grow: 1;
+}
+
+.quadrato:not(.row) {
+  width: 50%;
+  padding: 50px 20px;
+  height: 30vw;
+  overflow-y: scroll;
+}
+
+.quadrato:last-child.row {
+  justify-content: flex-end;
+}
+
+.quadrato h5 {
+  font-weight: normal;
+}
+
+.quadrato span {
+  font-weight: bold;
+}
+
+.quadrato p:last-child {
+  margin-top: 55px;
+}
+
+.cinque hr {
+  margin: 45px 0;
+}
+
+.cinque .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 15vw;
+  height: 15vw;
+}
+
+.cinque .img img {
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(306deg)
+    brightness(103%) contrast(101%);
+}
+
+.cinque sup {
+  font-size: 20px;
+}
+/* color partners */
+.designit {
+  background-color: #a2d39b;
+  border: 10px solid #d1e9cd;
+}
+
+.asu {
+  background-color: #61082b;
+}
+
+.uf {
+  background-color: #0093ce;
+}
+
+.topps {
+  background-color: #ff1c1c;
+}
+
+.wbr {
+  background-color: #ff1c1c;
+}
+
+.hearst {
+  background-color: #b4d0e7;
+}
+
+.lp {
+  background-color: #0d2481;
+}
+
+.cc {
+  background-color: #ffd830;
+}
