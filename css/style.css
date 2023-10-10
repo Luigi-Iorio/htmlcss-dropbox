@@ -293,12 +293,15 @@ hr.color {
 }
 
 .due.row {
-  align-items: center;
   gap: 50px;
 }
 
 .due h2 {
   font-size: 28px;
+}
+
+.due .w-30 {
+  margin-top: 60px;
 }
 
 /* section tre */
