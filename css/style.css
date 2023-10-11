@@ -283,7 +283,7 @@ hr.color {
 .prezzi h6 {
   font-size: 16px;
   margin-top: 20px;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 /* colonna piano personalizzato */
@@ -512,6 +512,11 @@ footer {
   padding: 110px 0 50px 0;
   background-color: black;
   color: white;
+}
+
+footer h6 {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 footer .row {
