@@ -469,10 +469,13 @@ section.quattro {
   margin-bottom: 70px;
 }
 
+.sette .row h5 {
+  font-size: 15px;
+}
+
 .domanda {
   padding: 45px 0;
   border-top: 1px solid black;
-  position: relative;
 }
 
 .domanda:last-child {
@@ -490,14 +493,6 @@ section.quattro {
 
 .domanda .risposta {
   display: none;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-}
-
-.risposta p {
-  padding: 10px 0;
 }
 
 .domanda:hover .row {
