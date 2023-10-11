@@ -135,7 +135,7 @@ nav ul li:hover {
 }
 
 nav ul:last-child li:last-child:hover {
-  border: none;
+  border-bottom: 2px solid transparent;
 }
 
 nav ul li.logo:hover {
