@@ -260,6 +260,10 @@ hr.color {
   gap: 30px;
 }
 
+.big .info {
+  gap: 20px;
+}
+
 .info .row {
   gap: 5px;
 }
