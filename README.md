@@ -19,6 +19,7 @@ In questa fase dello sviluppo, non è stata ancora affrontata la responsività d
 .
 ├── css/
 │   └── style.css
+│   └── accedi.css
 ├── img/
 │   └── screenshot.png
 │   └── img/
@@ -40,5 +41,6 @@ In questa fase dello sviluppo, non è stata ancora affrontata la responsività d
 │       └── business-feauture-send-files-it.png
 │       └── business-feauture-switching-tools.png
 ├── index.html
+├── accedi.html
 └── README.md
 ```
