@@ -18,6 +18,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* COMMON */
 .l-cont {
   width: 1180px;
